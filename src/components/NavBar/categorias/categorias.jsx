@@ -13,7 +13,7 @@ const Categorias = () => {
             <a className="dropdown-item" href="#">Licores</a>
           </div>
         </li>
-
+ 
     );
 }
 
