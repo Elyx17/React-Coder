@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Rare Cask 43°",
+        "marca": "The Macallan",
+        "modelo": "Y510P",
+        "precio": 299000,
+        "stock": 30,
+        "img": "the-macallan-rare-cask-43.png"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre": "Double Cask 15",
+        "marca": "The Macallan",
+        "modelo": "Mi-9",
+        "precio": 115000,
+        "stock": 20,
+        "img": "the-macallan-double-cask-15-anos.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "nombre": "Double Cask 18",
+        "marca": "The Macallan",
+        "precio": 355000,
+        "stock": 15,
+        "img": "the-macallan-double-cask-18-anos.jpg"
+    },
+    {
+        "id": 4,
+        "idCategoria": 1,
+        "nombre": "Estate",
+        "marca": "The Macallan",
+        "precio": 285000,
+        "stock": 30,
+        "img": "wEstate.jpg"
+    },
+    {
+        "id": 5,
+        "idCategoria": 2,
+        "nombre": "Vodka Clásico",
+        "marca": "Sernova",
+        "precio": 1700,
+        "stock": 7,
+        "img": "sernova-clasico-700ml-removebg-preview.png"
+    },
+    {
+        "id": 6,
+        "idCategoria": 3,
+        "nombre": "Licor de Café",
+        "marca": "Borghetti",
+        "precio": 3300,
+        "stock": 20,
+        "img": "borghetti-licor-de-cafe-700ml-removebg-preview.png"
+    },
+    {
+        "id": 7,
+        "idCategoria": 3,
+        "nombre": "Sambuca Oro",
+        "marca": "Borghetti",
+        "precio": 9500,
+        "stock": 10,
+        "img": "sambuca-oro-borghetti-700ml-removebg-preview.png"
+    },
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre": "Grappa Bianca",
+        "marca": "Candolini",
+        "precio": 12000,
+        "stock": 30,
+        "img": "grappa-candolini-bianca-1000ml-removebg-preview.png"
+    },
+    {
+        "id": 9,
+        "idCategoria": 3,
+        "nombre": "Liquore Limoncello",
+        "marca": "Strega",
+        "precio": 8000,
+        "stock": 21,
+        "img": "liquore-strega-limoncello-700ml-removebg-preview.png"
+    },
+    {
+        "id": 10,
+        "idCategoria": 1,
+        "nombre": "The Famous Grouse",
+        "marca": "The Famous Grouse",
+        "precio": 12000,
+        "stock": 25,
+        "img": "the-famous-grouse-finest-40-750ml-removebg-preview.png"
+    },
+    {
+        "id": 11,
+        "idCategoria": 1,
+        "nombre": "Highland Park 18",
+        "marca": "Highland Park",
+        "precio": 160000,
+        "stock": 30,
+        "img": "highland-park-18-anos-removebg-preview.png"
+    },
+    {
+        "id": 12,
+        "idCategoria": 1,
+        "nombre": "Reserva Malbec",
+        "marca": "Fabre Montmayou",
+        "precio": 2500,
+        "stock": 20,
+        "img": "fabre-montmayou-reserva-malbec-750ml-removebg-preview.png"
+    }
+
+]
