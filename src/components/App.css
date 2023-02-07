@@ -8,11 +8,25 @@ body{
 }
 
 .cardTitulo{ 
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .cardSubTitulo{
     font-size: 1.15rem;
+}
+
+.carrito{
+    background-color:  rgba(125,57,105,0.85);
+    border: 3px solid #fff
+}
+
+.carrito:hover{
+    background-color:  rgba(223,11,11,0.8);
+    color: rgba(223,11,11,0.8); 
+}
+
+.carritoIcono{
+    color: #fff;
 }
 
 
@@ -22,7 +36,7 @@ body{
 
 body {
     background: rgb(223,11,11);
-    background: linear-gradient(148deg, rgba(223,11,11,1) 0%, rgba(0,116,255,1) 100%);
+    background: linear-gradient(117deg, rgba(223,11,11,0.8) 0%, rgba(125,57,105,0.85) 72%);
 }
 /* * Start */
 .glassBox {
@@ -82,21 +96,40 @@ body {
 
 /*botonesssssssssssssssssss*/
 
-.rainbow{
-    background-color: #343A40;
-    border-radius: 4px;  
-    color: #fff;
-    cursor: pointer;
-    padding: 8px 16px;
-    
-}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 
-.rainbow-1:hover{
-    background: linear-gradient(90deg, rgba(237,14,14,1) 0%, rgba(246,8,165,1) 49%, rgba(0,162,251,1) 80%, rgba(237,14,14,1) 100%);    animation:slidebg 5s linear infinite;
+
+.rainbow-button {
+    background-color: #fff;
+    border-radius: 10%;
+    border-radius: 10%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    color: #000;
+
+}
+.rainbow-button:after {
+    position: absolute;
+    content:attr(alt);
+    width:70%;
+    height:7%;
+    background-color:#fff;
+    border-radius: 10%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.rainbow-button:hover {
+    animation:slidebg 5s linear infinite;
+    color: #000;
+    background: linear-gradient(85deg, rgba(255,255,255,1) 0%, rgba(255,0,72,1) 27%, rgba(255,255,255,1) 57%, rgba(255,0,72,1) 90%, rgba(255,255,255,1) 100%);
 }
 
 @keyframes slidebg {
-    to {
-    background-position:20vw;
-    }
+to {
+    background-position:15vw;
+}
 }

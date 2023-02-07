@@ -31,7 +31,7 @@
     {
         "id": 4,
         "idCategoria": 1,
-        "nombre": "Estate",
+        "nombre": "Estate Old Time",
         "marca": "The Macallan",
         "precio": 285000,
         "stock": 30,
@@ -48,7 +48,7 @@
     },
     {
         "id": 6,
-        "idCategoria": 3,
+        "idCategoria": 4,
         "nombre": "Licor de Café",
         "marca": "Borghetti",
         "precio": 3300,
@@ -57,7 +57,7 @@
     },
     {
         "id": 7,
-        "idCategoria": 3,
+        "idCategoria": 4,
         "nombre": "Sambuca Oro",
         "marca": "Borghetti",
         "precio": 9500,
@@ -66,7 +66,7 @@
     },
     {
         "id": 8,
-        "idCategoria": 3,
+        "idCategoria": 4,
         "nombre": "Grappa Bianca",
         "marca": "Candolini",
         "precio": 12000,
@@ -75,7 +75,7 @@
     },
     {
         "id": 9,
-        "idCategoria": 3,
+        "idCategoria": 4,
         "nombre": "Liquore Limoncello",
         "marca": "Strega",
         "precio": 8000,
@@ -102,7 +102,7 @@
     },
     {
         "id": 12,
-        "idCategoria": 1,
+        "idCategoria": 3,
         "nombre": "Reserva Malbec",
         "marca": "Fabre Montmayou",
         "precio": 2500,

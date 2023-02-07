@@ -3,7 +3,7 @@ import Categorias from "./categorias/categorias";
 
 const NavBar = () => {
     return (
-<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Elyx Hall</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +18,7 @@ const NavBar = () => {
         </li>
         <Categorias/>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contacto</a>
+          <a className="nav-link active" href="#">Contacto</a>
         </li>
       </ul>
       <CartWidget/>
