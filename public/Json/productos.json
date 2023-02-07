@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "idCategoria": 1,
+        "idCategoria": "añejados",
         "nombre": "Rare Cask 43°",
         "marca": "The Macallan",
         "modelo": "Y510P",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "idCategoria": 1,
+        "idCategoria": "añejados",
         "nombre": "Double Cask 15",
         "marca": "The Macallan",
         "modelo": "Mi-9",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "idCategoria": 1,
+        "idCategoria": "añejados",
         "nombre": "Double Cask 18",
         "marca": "The Macallan",
         "precio": 355000,
@@ -30,7 +30,7 @@
     },
     {
         "id": 4,
-        "idCategoria": 1,
+        "idCategoria": "añejados",
         "nombre": "Estate Old Time",
         "marca": "The Macallan",
         "precio": 285000,
@@ -39,7 +39,7 @@
     },
     {
         "id": 5,
-        "idCategoria": 2,
+        "idCategoria": "destilados",
         "nombre": "Vodka Clásico",
         "marca": "Sernova",
         "precio": 1700,
@@ -48,7 +48,7 @@
     },
     {
         "id": 6,
-        "idCategoria": 4,
+        "idCategoria": "licores",
         "nombre": "Licor de Café",
         "marca": "Borghetti",
         "precio": 3300,
@@ -57,7 +57,7 @@
     },
     {
         "id": 7,
-        "idCategoria": 4,
+        "idCategoria": "licores",
         "nombre": "Sambuca Oro",
         "marca": "Borghetti",
         "precio": 9500,
@@ -66,7 +66,7 @@
     },
     {
         "id": 8,
-        "idCategoria": 4,
+        "idCategoria": "licores",
         "nombre": "Grappa Bianca",
         "marca": "Candolini",
         "precio": 12000,
@@ -75,7 +75,7 @@
     },
     {
         "id": 9,
-        "idCategoria": 4,
+        "idCategoria": "licores",
         "nombre": "Liquore Limoncello",
         "marca": "Strega",
         "precio": 8000,
@@ -84,7 +84,7 @@
     },
     {
         "id": 10,
-        "idCategoria": 1,
+        "idCategoria": "añejados",
         "nombre": "The Famous Grouse",
         "marca": "The Famous Grouse",
         "precio": 12000,
@@ -93,7 +93,7 @@
     },
     {
         "id": 11,
-        "idCategoria": 1,
+        "idCategoria": "añejados",
         "nombre": "Highland Park 18",
         "marca": "Highland Park",
         "precio": 160000,
@@ -102,7 +102,7 @@
     },
     {
         "id": 12,
-        "idCategoria": 3,
+        "idCategoria": "fermentados",
         "nombre": "Reserva Malbec",
         "marca": "Fabre Montmayou",
         "precio": 2500,

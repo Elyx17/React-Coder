@@ -6,14 +6,14 @@ const Categorias = () => {
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
           <div className="dropdown-menu">
-            <Link className="dropdown-item" to={"/category/2"}>Destilados</Link>
-            <Link className="dropdown-item" to={"/category/1"}>Añejados</Link>
-            <Link className="dropdown-item" to={"/category/3"}>Fermentados</Link>
+            <Link className="dropdown-item" to={"/category/destilados"}>Destilados</Link>
+            <Link className="dropdown-item" to={"/category/añejados"}>Añejados</Link>
+            <Link className="dropdown-item" to={"/category/fermentados"}>Fermentados</Link>
             <div className="dropdown-divider"/>
-            <Link className="dropdown-item" to={"/category/4"}>Licores</Link>
+            <Link className="dropdown-item" to={"/category/licores"}>Licores</Link>
           </div>
         </li>
-        
+
     );
 }
 
