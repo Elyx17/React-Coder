@@ -16,12 +16,12 @@ body{
 }
 
 .carrito{
-    background-color:  rgba(125,57,105,0.85);
+    background-color:  #7d3868d9;
     border: 3px solid #fff
 }
 
 .carrito:hover{
-    background-color:  rgba(223,11,11,0.8);
+    background-color:  #df0b0bcc;
     color: rgba(223,11,11,0.8); 
 }
 
@@ -100,6 +100,7 @@ body {
 
 
 .rainbow-button {
+    z-index: 2;
     background-color: #fff;
     border-radius: 10%;
     border-radius: 10%;
@@ -133,3 +134,4 @@ to {
     background-position:15vw;
 }
 }
+
