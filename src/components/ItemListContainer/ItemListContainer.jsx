@@ -11,7 +11,7 @@ const ItemListContainer = () => {
             .then(response => response.json())
             .then(items => {
                 const products = items.filter(prod => prod.idCategoria === idCategoria)
-                const productsList = ItemList({products})
+                const productsList = <ItemList products={products} plantilla={'item'}/> 
                 console.log(productsList)
                 setProductos(productsList)
             }) 
@@ -19,7 +19,7 @@ const ItemListContainer = () => {
             fetch('./json/productos.json')
             .then(response => response.json())
             .then(products => {
-                const productsList = ItemList({products})
+                const productsList = <ItemList products={products} plantilla={'item'}/> 
                 console.log(productsList)
                 setProductos(productsList)
             })

@@ -1,6 +1,17 @@
 import { Link } from "react-router-dom"
+import { toast } from 'react-toastify';
 
 const Item = ({item}) => {
+
+  const agregarCarrito = () => toast("✅ Producto agregado!", {
+    theme: "dark",
+    position: "bottom-right",
+    pauseOnHover: false,
+    autoClose: 1000,
+    hideProgressBar: false,
+    closeOnClick: true,
+  })
+
     return (
   <div className='col-md-3 p-'>
   <div className="card text-center glassBox">
@@ -16,6 +27,7 @@ const Item = ({item}) => {
           className="btn btn-primary tarjeta rainbow-button"
           rel="noreferrer"
           alt="Agregar al carrito"
+          onClick={() => agregarCarrito()}
         >
           Agregar al carrito
         </Link>
