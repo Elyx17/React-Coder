@@ -31,19 +31,19 @@ const Contacto = () => {
     return (
       <div className="container form-box" style={{marginTop:"20px"}}>
       <form onSubmit={consultarFormulario} ref={datosFormulario}>
-      <div className="mb-3 inputbox">
+      <div className="mb-3 inputbox inputContacto">
           <label htmlFor="nombre" className="form-label">Nombre y apellido</label>
           <input type="text" className="form-control" name="nombre"/>
       </div>
-      <div className="mb-3 inputbox">
+      <div className="mb-3 inputbox inputContacto">
           <label htmlFor="email" className="form-label">Email</label>
           <input type="email" className="form-control" name="email" />
       </div>
-      <div className="mb-3 inputbox">
+      <div className="mb-3 inputbox inputContacto">
           <label htmlFor="celular" className="form-label">Número de teléfono</label>
           <input type="number" className="form-control" name="celular" />
       </div>
-      <div className="mb-3 inputbox">
+      <div className="mb-3 inputbox inputContacto">
           <label htmlFor="comentario" className="form-label">Comentario</label>
           <textarea className="form-control" name="comentario" rows={3} defaultValue={""} />
       </div>

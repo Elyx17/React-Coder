@@ -16,7 +16,7 @@ const Item = ({item}) => {
   <div className='col-md-3 p-'>
   <div className="card text-center glassBox">
       <div className="overflow glassBox__imgBox">
-      <Link className="nav-link" to={`/item/${item.id}`}><img src={`../img/${item.img}`} alt={`Imagen de ${item.nombre}`} className="card-img-top cardImagen" /></Link>
+      <Link className="nav-link" to={`/item/${item.id}`}><img src={item.img} alt={`Imagen de ${item.nombre}`} className="card-img-top cardImagen" /></Link>
       </div>
       <div className="card-body text-light">
       <Link className="nav-link" to={`/item/${item.id}`}><h4 className="card-title cardTitulo">{item.nombre}</h4></Link>

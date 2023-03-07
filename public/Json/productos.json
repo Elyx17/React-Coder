@@ -4,20 +4,18 @@
         "idCategoria": "añejados",
         "nombre": "Rare Cask 43°",
         "marca": "The Macallan",
-        "modelo": "Y510P",
         "precio": 299000,
         "stock": 30,
-        "img": "the-macallan-rare-cask-43.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/the-macallan-rare-cask-43.png?alt=media&token=aa0956ef-d75f-47d4-8b4f-a42d12d15167"
     },
     {
         "id": 2,
         "idCategoria": "añejados",
         "nombre": "Double Cask 15",
         "marca": "The Macallan",
-        "modelo": "Mi-9",
         "precio": 115000,
         "stock": 20,
-        "img": "the-macallan-double-cask-15-anos.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/the-macallan-double-cask-15-anos.jpg?alt=media&token=f3c62c0e-dbca-437c-95cf-d37c4f3c7590"
     },
     {
         "id": 3,
@@ -26,7 +24,7 @@
         "marca": "The Macallan",
         "precio": 355000,
         "stock": 15,
-        "img": "the-macallan-double-cask-18-anos.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/the-macallan-double-cask-18-anos.jpg?alt=media&token=4a848009-18a8-4250-8921-265ff80dbed8"
     },
     {
         "id": 4,
@@ -35,7 +33,7 @@
         "marca": "The Macallan",
         "precio": 285000,
         "stock": 30,
-        "img": "wEstate.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/wEstate.jpg?alt=media&token=30aa1241-d200-41bc-9d37-e6bb21878138"
     },
     {
         "id": 5,
@@ -44,7 +42,7 @@
         "marca": "Sernova",
         "precio": 1700,
         "stock": 7,
-        "img": "sernova-clasico-700ml-removebg-preview.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/sernova-clasico-700ml-removebg-preview.png?alt=media&token=daef5290-e0cd-48d3-b130-b90ed99539a6"
     },
     {
         "id": 6,
@@ -53,7 +51,7 @@
         "marca": "Borghetti",
         "precio": 3300,
         "stock": 20,
-        "img": "borghetti-licor-de-cafe-700ml-removebg-preview.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/borghetti-licor-de-cafe-700ml-removebg-preview.png?alt=media&token=0d67725f-bd2d-4651-afd3-27f8e5dd54c9"
     },
     {
         "id": 7,
@@ -62,7 +60,7 @@
         "marca": "Borghetti",
         "precio": 9500,
         "stock": 10,
-        "img": "sambuca-oro-borghetti-700ml-removebg-preview.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/sambuca-oro-borghetti-700ml-removebg-preview.png?alt=media&token=96d590b5-40ad-4ae2-a895-6fe4ed6c6d69"
     },
     {
         "id": 8,
@@ -71,7 +69,7 @@
         "marca": "Candolini",
         "precio": 12000,
         "stock": 30,
-        "img": "grappa-candolini-bianca-1000ml-removebg-preview.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/grappa-candolini-bianca-1000ml-removebg-preview.png?alt=media&token=eb30c32d-37c9-406d-93a2-12185eb2d8ef"
     },
     {
         "id": 9,
@@ -80,7 +78,7 @@
         "marca": "Strega",
         "precio": 8000,
         "stock": 21,
-        "img": "liquore-strega-limoncello-700ml-removebg-preview.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/liquore-strega-limoncello-700ml-removebg-preview.png?alt=media&token=8146c8dc-30d3-495c-baf6-19506c4decbb"
     },
     {
         "id": 10,
@@ -89,7 +87,7 @@
         "marca": "The Famous Grouse",
         "precio": 12000,
         "stock": 25,
-        "img": "the-famous-grouse-finest-40-750ml-removebg-preview.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/the-famous-grouse-finest-40-750ml-removebg-preview.png?alt=media&token=5c423352-819a-4f80-beec-cbf6313127e1"
     },
     {
         "id": 11,
@@ -98,7 +96,7 @@
         "marca": "Highland Park",
         "precio": 160000,
         "stock": 30,
-        "img": "highland-park-18-anos-removebg-preview.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/highland-park-18-anos-removebg-preview.png?alt=media&token=d63f636b-a93a-4ba0-89c3-06b67cf26aa9"
     },
     {
         "id": 12,
@@ -107,7 +105,7 @@
         "marca": "Fabre Montmayou",
         "precio": 2500,
         "stock": 20,
-        "img": "fabre-montmayou-reserva-malbec-750ml-removebg-preview.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/fabre-montmayou-reserva-malbec-750ml-removebg-preview.png?alt=media&token=6b7b4596-9992-4956-bfdd-344e84fe9c47"
     }
 
 ]

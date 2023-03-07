@@ -5,9 +5,9 @@ import ItemList  from "../ItemList/ItemList"
 const Cart = () => {
 
     const carrito = [
-        {id: 1, nombre: "Arroz", modelo: "1", img: 'wEstate.jpg', precio: 400, cantidad: 5 },
-        {id: 2,nombre: "Fideos", modelo: "2", img: 'wEstate.jpg',precio: 300, cantidad: 2 },
-        {id: 3,nombre: "Manteca", modelo: "3",img: 'wEstate.jpg',precio: 500, cantidad: 3 },
+        {id: 1, nombre: "Arroz", modelo: "1", img: 'https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/wEstate.jpg?alt=media&token=30aa1241-d200-41bc-9d37-e6bb21878138', precio: 400, cantidad: 5 },
+        {id: 2,nombre: "Fideos", modelo: "2", img: 'https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/wEstate.jpg?alt=media&token=30aa1241-d200-41bc-9d37-e6bb21878138',precio: 300, cantidad: 2 },
+        {id: 3,nombre: "Manteca", modelo: "3",img: 'https://firebasestorage.googleapis.com/v0/b/react-coderhouse17.appspot.com/o/wEstate.jpg?alt=media&token=30aa1241-d200-41bc-9d37-e6bb21878138',precio: 500, cantidad: 3 },
     ]
 
     return (
@@ -25,9 +25,9 @@ const Cart = () => {
                 }
                 <div className="divButtons">
                     <p>Resumen de la compra: precio total</p>
-                    <button className="btn btn-danger">Vaciar carrito</button>
                     <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar Comprando</button></Link> 
-                    <Link className="nav-link" to={'/checkout'}><button className="btn btn-dark">Finalizar compra</button></Link> 
+                    <button className="btn btn-danger"><i class="bi bi-trash3"></i> Vaciar carrito</button>
+                    <Link className="nav-link" to={'/checkout'}><button className="btn btn-success"><i class="bi bi-check-square"></i> Finalizar compra</button></Link> 
                 </div>
             </div>
         }

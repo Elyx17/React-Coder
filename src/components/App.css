@@ -136,7 +136,9 @@ to {
 
 
 /*contacto*/
-
+.inputContacto{
+    color: aliceblue;
+}
 
 
 /*FOOTER*/
@@ -205,8 +207,10 @@ to {
 /*CART*/
 
 .cartContainer {
-    margin-top: 3%;
-    margin-left: 26,5%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .divButtons button {
@@ -214,5 +218,34 @@ to {
 }
 
 .cardCart {
-    max-width: 740px;
+    width: 100%;
+    max-height: 255px;
+}
+
+.bodyCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10% 0;
+}
+
+.imagenCart{
+    width: inherit;
+    margin-left: 120px;
+}
+
+.iconoDeBorrar{
+    font-size: 1.5rem;
+}
+
+.divButtons{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
 }
