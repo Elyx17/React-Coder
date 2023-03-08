@@ -12,6 +12,7 @@ import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Contacto from './Contacto/Contacto';
 import Footer from './Footer/Footer';
 import Cart from './Cart/Cart';
+import Checkout from './Checkout/Checkout';
 
 import { CarritoProvider } from './context/CarritoContext';
 
@@ -35,6 +36,7 @@ function App() {
             <Route path='/category/:idCategoria' element={<ItemListContainer/>}/>
             <Route path='/Contacto' element={<Contacto/>}/> 
             <Route path='/Cart' element={<Cart/>}/>
+            <Route path='/Checkout' element={<Checkout/>}/>
         </Routes> 
       <Footer/>
       <ToastContainer/>

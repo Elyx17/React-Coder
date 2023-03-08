@@ -4,6 +4,8 @@ import ItemList from "../ItemList/ItemList";
 
 import { getProductos } from "../../firebase/firebase";
 
+
+
 const ItemListContainer = () => {
     const [productos, setProductos] = useState ([])
     const {idCategoria}= useParams()

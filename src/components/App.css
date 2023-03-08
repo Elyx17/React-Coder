@@ -229,23 +229,41 @@ to {
     align-items: center;
     text-align: center;
     margin: 10% 0;
+    font-size: 1.5rem;
 }
 
-.imagenCart{
-    width: inherit;
-    margin-left: 120px;
+.bodyCart h5{
+    font-size: 1.5rem;
 }
+
 
 .iconoDeBorrar{
     font-size: 1.5rem;
 }
 
 .divButtons{
-    
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
+}
 
+.divButtons p{
+    font-size: 2rem;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.actionButtons{
+    display: flex;
+    z-index: 2;
+}
+
+
+.detallesButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
