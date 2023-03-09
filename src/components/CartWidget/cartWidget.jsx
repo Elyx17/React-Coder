@@ -9,8 +9,8 @@ const CartWidget = () => {
     return (
         <>
             <Link className="nav-link" to={'/cart'}>
-                <button className="btn carrito"><FontAwesomeIcon className='carritoIcono' style={{fontSize: "1.5rem"}} icon={faCartShopping}/></button>
-                {getItemQuantity() > 0 && <span className="cantCarrito">{getItemQuantity()}</span>}
+                <button className="btn carrito"><FontAwesomeIcon className='carritoIcono' style={{fontSize: "1.5rem"}} icon={faCartShopping}/>
+                {getItemQuantity() > 0 && <span className="cantCarrito">{getItemQuantity()}</span>}</button>
             </Link> 
         </>
     );

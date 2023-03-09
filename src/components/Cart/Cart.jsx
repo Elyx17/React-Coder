@@ -10,10 +10,10 @@ const Cart = () => {
         <>
         { carrito.length === 0 
           ? //Si carrito esta vacio
-            <>
-                <h2>Carrito vacio</h2>
-                <Link className="nav-link" to={'/'}><button className="btn btn-dark">Continuar comprando</button></Link> 
-            </>
+            <div className='CarritoVacioCantainer'>
+                <h2 className='carritoVacio'>Carrito vacio</h2>
+                <Link className="nav-link" to={'/'}><button className="btn btn-dark"><i class="bi bi-arrow-return-left"></i> Continuar comprando</button></Link> 
+            </div>
           : //Si carrito tiene productos
             <div className="container cartContainer">
                 {

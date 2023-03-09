@@ -13,7 +13,7 @@ const ItemListContainer = () => {
         if(idCategoria){
             getProductos()
             .then(items => {
-                const products = items.filter(prod => prod.idCategoria === idCategoria)
+                const products = items.filter(prod => prod.stock > 0).filter(prod => prod.idCategoria === idCategoria)
                 const productsList = <ItemList products={products} plantilla={'item'}/> 
                 setProductos(productsList)
             }) 

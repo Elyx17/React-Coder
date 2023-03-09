@@ -38,8 +38,8 @@ const ItemDetail = ({item}) => {
             </div>
             <div className="col-md-3 detallesButtons">
             <ItemCount valInicial={1} stock={item.stock} onAdd={onAdd}/>
-                <Link className="nav-link" to={'/'}><button className="btn btn-info">Continuar comprando</button></Link>
-                <Link className="nav-link" to={'/Cart'}><button className="btn btn-success">Ver Mi Carrito</button></Link>
+                <Link className="nav-link" to={'/'}><button className="btn btn-info"><i class="bi bi-arrow-return-left"></i> Continuar comprando</button></Link>
+                <Link className="nav-link" to={'/Cart'}><button className="btn btn-success"><i class="bi bi-cart-fill"></i> Ver Mi Carrito</button></Link>
             </div>
         </div>
         
