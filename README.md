@@ -23,6 +23,10 @@ npm start
 
 ![alt text](https://www.youtube.com/watch?v=za4JNGPtczU) 
 
+```
+https://www.youtube.com/watch?v=za4JNGPtczU
+```
+
 ### Sobre mi proyecto 🐱‍🐉🐱‍🐉
 
 _Realice un e-commerce de bebidas, mi idea era ser lo más visual y original posible. Espero que les guste!_
